@@ -1,170 +1,210 @@
-<!doctype html>
-<html class="no-js" lang="zxx">
 
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="author" content="Jabber Technologies, LLC">
-    <meta name="description" content="">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Title -->
-    <title>buzzl | What's Near You?</title>
-    <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <!-- <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" /> -->
-    <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+  <!-- SITE TITTLE -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>buzzl | What's near you?</title>
+  
+  <!-- PLUGINS CSS STYLE -->
+  <!-- Bootstrap -->
+  <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Themefisher Font -->  
+  <link href="plugins/themefisher-font/style.css" rel="stylesheet">
+  <!-- Slick Carousel -->
+  <link href="plugins/slick/slick.css" rel="stylesheet">
+  <!-- Slick Carousel Theme -->
+  <link href="plugins/slick/slick-theme.css" rel="stylesheet">
+  
+  <!-- CUSTOM CSS -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- FAVICON -->
+  <link href="images/favicon.png" rel="shortcut icon">
+
 </head>
 
-<body data-spy="scroll" data-target=".mainmenu-area">
-    <!-- Preloader-content -->
-    <div class="preloader">
-        <span><i class="lnr lnr-sun"></i></span>
+<body class="body-wrapper">
+
+
+<nav class="navbar main-nav fixed-top navbar-expand-lg">
+  <div class="container">
+      <a class="navbar-brand" href="homepage.html"><img style="width: 150px" src="images/logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="tf-ion-android-menu"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#feature">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link scrollTo" href="#contact">Contact</a>
+        </li>
+      </ul>
+      </div>
+  </div>
+</nav>
+<!--=====================================
+=            Homepage Banner            =
+======================================-->
+
+<section class="banner bg-1" id="home">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 align-self-center">
+				<!-- Contents -->
+				<div class="content-block">
+					<h1>Connect to the world around you with buzzl</h1>
+					<h5>buzzl is your local information source. Location-based posts allow you to stay connected and informed like never before. Make new friends, find great deals, expand your professional network, or just find out when happy hour starts.</h5>
+					<!-- App Badge -->
+					<div class="app-badge">
+						<ul class="list-inline">
+							<li class="list-inline-item">
+								<a href="#"><img style="height: 123px; width: 300px; margin-top: 15px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><img alt="Download on the App Store" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1611705600&amp;h=13f3aeb413223801fb75543a1d928a12" style="border-radius: 13px; margin-top: 16px; margin-left: 16px; width: 250px; height: 83px;"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<!-- App Image -->
+				<div class="image-block">
+					<img class="img-fluid" src="images/phones/iphone-banner.png" alt="iphone-banner">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Homepage Banner  ====-->
+
+<!--==============================
+=            Features            =
+===============================-->
+
+<section class="section feature" id="feature">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<div class="section-title">
+					<h2>A local information and connection platform</h2>
+					<p>With global news easily available, people often know more about events in other cities or countries before they know what's happening down the street.</p>
+					<br/>
+					<p>buzzl is here to change that.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Features  ====-->
+
+
+<!--=============================================
+=            Call to Action Download            =
+==============================================-->
+
+<section class="cta-download bg-3 overlay">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="content-block">
+					<!-- Title -->
+					<h2>Download Now</h2>
+					<!-- App Badge -->
+					<div class="app-badge">
+						<ul class="list-inline">
+							<li class="list-inline-item">
+								<a href="#"><img style="height: 123px; width: 300px; margin-top: 15px" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"></a>
+							</li>
+							<li class="list-inline-item">
+								<a href="#"><img alt="Download on the App Store" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-US?size=250x83&amp;releaseDate=1611705600&amp;h=13f3aeb413223801fb75543a1d928a12" style="border-radius: 13px; margin-top: 16px; margin-left: 16px; width: 250px; height: 83px;"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--====  End of Call to Action Download  ====-->
+
+<section class="section feature" id="contact">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-7">
+				<div class="content-block">
+					<!-- Title -->
+					<h2>Need Support?</h2>
+					<!-- Desctcription -->
+					<p>Reach out to us here: <a href="mailto:admin@buzzl-app.com" style="color: #ef4d49">admin@buzzl-app.com</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!--============================
+=            Footer            =
+=============================-->
+
+<footer class="footer-main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mr-auto">
+          <div class="footer-logo">
+            <img style="width: 150px" src="images/logo.png" alt="footer-logo">
+          </div>
+          <div class="copyright">
+            <p>@2021 Jabber Technologies, LLC All Rights Reserved  |  Design By : <a href="https://themefisher.com/" target="_blank">Themefisher</a>
+              <br>Get More <a href="https://themewagon.com/theme_tag/free/" target="_blank">Free Bootstrap Templates</a>
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6 text-lg-right">
+          <!-- Footer Links -->
+          <ul class="footer-links list-inline">
+            <li class="list-inline-item">
+              <a href="#">HOME</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#feature">ABOUT</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
-    <!-- MainMenu-Area -->
-    <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="primary_menu">
-                <ul class="nav navbar-nav mainmenu">
-                    <li class="active"><a href="#home_page">Home</a></li>
-                    <li><a href="#about_page">About</a></li>
-                    <li><a href="#contact_page">Support</a></li>
-                </ul>
-                <!-- <div class="right-button hidden-xs">
-                    <a href="#">Sign Up</a>
-                </div> -->
-            </div>
-        </div>
-    </nav>
-    <!-- MainMenu-Area-End -->
-    <!-- Home-Area -->
-    <header class="home-area overlay" id="home_page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 hidden-sm col-md-5">
-                    <figure class="mobile-image wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="images/header-mobile.png" alt="">
-                    </figure>
-                </div>
-                <div class="col-xs-12 col-md-7">
-                    <div class="space-80 hidden-xs"></div>
-                    <h1 class="wow fadeInUp" data-wow-delay="0.4s">Connect to the world around you with buzzl</h1>
-                    <div class="space-20"></div>
-                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                        <p>buzzl is your real-world data feed. Location-based posts allow you to stay connected and informed like never before. Make new friends, expand your professional network, or just find out when happy hour starts.</p>
-                        <br/>
-                        <!-- <a href="#" class="bttn-white sq"><img src="images/apple-icon.png" alt="apple icon"> Apple Store</a>
-                        <a href="#" class="bttn-white sq"><img src="images/play-store-icon.png" alt="Play Store Icon"> Play Store</a> -->
-                    </div>
-                    <div class="space-20"></div>
-                    <!-- <a href="#" class="bttn-white wow fadeInUp" data-wow-delay="0.8s"><i class="lnr lnr-download"></i>Download App</a> -->
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- Home-Area-End -->
-    <!-- About-Area -->
-    <section id="about_page">
-        <br/>
-        <br/>
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-10 col-md-offset-1">
-                    <div class="page-title text-center">
-                        <div class="space-20"></div>
-                        <h5 class="title">About buzzl</h5>
-                        <div class="space-30"></div>
-                        <h3 class="blue-color">A local information and connection platform</h3>
-                        <div class="space-20"></div>
-                        <p>With global information available instantly, people often know more about events in other cities or countries before they know what's happening down the street.</p>
-                        <p>buzzl is here to change that.</p>
-<!--                         <p>We built buzzl because we were frustrated with how difficult it was to know what was happening nearby or to reach out to the people around us. </p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- About-Area-End -->
-    <!-- Footer-Area -->
-    <footer class="footer-area" id="contact_page">
-        <div class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="page-title text-center">
-                            <h5 class="title">Need Support? Reach out below</h5>
-                            <div class="space-60"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="footer-box">
-                            <div class="box-icon">
-                                <a href="mailto:admin@jabber-app.com"><span class="lnr lnr-envelope"></span></a>
-                            </div>
-                            <p>admin@jabber-app.com</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer-Bootom -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-12">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> | Jabber Technologies, LLC | All rights reserved | <a href="https://app.termly.io/document/privacy-policy/a7e4be8d-a85e-488b-bbea-c91dc65d568d">Privacy Policy</a> | <a href="https://www.websitepolicies.com/policies/view/3iKcFUlV">Terms & Conditions</a></span>
-            <div class="row">
-                <div class="col-xs-12 col-md-12">
-                    <span>This template is made with <i class="lnr lnr-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
-                </div>
-            </div>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer-Bootom-End -->
-    </footer>
-    <!-- Footer-Area-End -->
-    <!--Vendor-JS-->
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/vendor/jquery-ui.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <!--Plugin-JS-->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/contact-form.js"></script>
-    <script src="js/ajaxchimp.js"></script>
-    <script src="js/scrollUp.min.js"></script>
-    <script src="js/magnific-popup.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!--Main-active-JS-->
-    <script src="js/main.js"></script>
+</footer>
+
+
+
+  <!-- JAVASCRIPTS -->
+  
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA" async defer></script>
+
+  <script src="plugins/jquery/jquery.js"></script>
+  <script src="plugins/popper/popper.min.js"></script>
+  <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/waypoints/jquery.waypoints.min.js"></script>
+  <script src="plugins/slick/slick.min.js"></script>
+  <script src="plugins/smoothscroll/SmoothScroll.min.js"></script>
+  <script src="js/custom.js"></script>
+  
 </body>
 
 </html>
+
