@@ -241,8 +241,14 @@ a:focus, a:hover {
 @media (max-width: 480px) {
   .section-title p {
     width: 100%;
-  }
+  } 
 }
+
+.small-image {
+  max-width: 90%;
+  border-radius: 15px;
+}
+
 
 .page-title {
   text-align: center;
