@@ -5,6 +5,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+#about {
+  padding-top: 100px;
+}
+
 #howItWorks {
   background-color: #ef4d49;
 }
